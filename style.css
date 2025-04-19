@@ -1,0 +1,63 @@
+body {
+    background-image: url(img/back-ground-prog10.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    color: white;
+}
+
+.find__Job {
+    text-align: center;
+}
+
+h1 {
+    font-size: 6.5rem;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+}
+
+.left__col {
+    height: 450px;
+    align-content: center;
+    justify-items: center;
+    width: 45%;
+}
+
+.right__col {
+    width: 45%;
+    align-content: center;
+    /*justify-items: center;*/
+}
+
+.for__location, .for__job {
+    padding: 80px;
+    display: flex;
+}
+
+span {
+    font-size: 2.5em;
+}
+
+.testo {
+    border-radius: 25px;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.search {
+    font-size: 2.2em;
+    flex-wrap: wrap;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+
+
